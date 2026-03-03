@@ -1,0 +1,277 @@
+/* ===== GOOGLE FONT ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ===== GLOBAL RESET ===== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#0f172a;
+    color:#ffffff;
+    overflow-x:hidden;
+}
+
+/* ===== SCROLL PROGRESS BAR ===== */
+.progress-bar{
+    position:fixed;
+    top:0;
+    left:0;
+    height:4px;
+    width:0%;
+    background:linear-gradient(90deg,#38bdf8,#9333ea);
+    z-index:2000;
+}
+
+/* ===== NAVBAR ===== */
+nav{
+    position:fixed;
+    width:100%;
+    top:0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:rgba(15,23,42,0.85);
+    backdrop-filter:blur(10px);
+    z-index:1000;
+}
+
+nav ul{
+    display:flex;
+    gap:25px;
+    list-style:none;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:700;
+    color:#38bdf8;
+}
+
+/* ===== HERO SECTION ===== */
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:120px 40px 60px;
+}
+
+.hero-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:80px;
+    flex-wrap:wrap;
+}
+
+.hero-text{
+    max-width:600px;
+}
+
+.hero-text h1{
+    font-size:60px;
+    font-weight:800;
+}
+
+.hero-text h2{
+    margin-top:10px;
+    color:#38bdf8;
+    height:40px;
+}
+
+.hero-text p{
+    margin:25px 0;
+    color:#cbd5e1;
+    line-height:1.6;
+}
+
+.hero-buttons{
+    margin-top:20px;
+}
+
+.btn{
+    background:#38bdf8;
+    padding:12px 28px;
+    border-radius:30px;
+    text-decoration:none;
+    color:black;
+    font-weight:600;
+    margin-right:15px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+.btn-outline{
+    border:2px solid #38bdf8;
+    padding:12px 28px;
+    border-radius:30px;
+    text-decoration:none;
+    color:#38bdf8;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn-outline:hover{
+    background:#38bdf8;
+    color:black;
+}
+
+/* ===== PROFILE IMAGE ===== */
+.hero-image{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.image-wrapper{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    overflow:hidden;
+    border:6px solid #38bdf8;
+    box-shadow:0 0 40px #38bdf8;
+}
+
+.image-wrapper img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* ===== SECTIONS ===== */
+.section{
+    padding:100px 60px;
+    text-align:center;
+}
+
+.dark{
+    background:#111827;
+}
+
+.section h2{
+    font-size:36px;
+    margin-bottom:40px;
+}
+
+/* ===== SKILLS ===== */
+.skill-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.skill-card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.skill-card i{
+    font-size:30px;
+    margin-bottom:10px;
+    color:#38bdf8;
+}
+
+.skill-card:hover{
+    transform:translateY(-8px);
+    background:#38bdf8;
+    color:black;
+}
+
+.skill-card:hover i{
+    color:black;
+}
+
+/* ===== CARDS ===== */
+.card-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:20px;
+    width:320px;
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 25px #38bdf8;
+}
+
+.duration{
+    color:#38bdf8;
+    margin:10px 0;
+}
+
+/* ===== CERTIFICATE IMAGE FIX ===== */
+.cert-img-wrapper{
+    width:100%;
+    height:200px;
+    overflow:hidden;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.cert-img-wrapper img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* ===== FOOTER ===== */
+footer{
+    text-align:center;
+    padding:30px;
+    background:#0f172a;
+    color:#94a3b8;
+}
+
+/* ===== REVEAL ANIMATION ===== */
+.reveal{
+    opacity:0;
+    transform:translateY(50px);
+    transition:1s;
+}
+
+.reveal.active{
+    opacity:1;
+    transform:translateY(0);
+}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:900px){
+    nav{padding:20px 30px;}
+    .hero-text h1{font-size:40px;}
+    .image-wrapper{width:220px;height:220px;}
+    .section{padding:80px 30px;}
+}
