@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anish Kumar | Cyber Security Specialist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+<div class="cursor-glow"></div>
+
+<!-- MOBILE MENU -->
+<div class="menu-toggle">
+    <i class="fas fa-bars"></i>
+</div>
+
+<nav>
+    <div class="logo">
+        <span class="logo-text">AK</span>
+        <span class="logo-dot"></span>
+    </div>
+    <ul class="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#training" class="nav-link">Training</a></li>
+        <li><a href="#certifications" class="nav-link">Certificates</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#activities" class="nav-link">Activities</a></li>
+        <li><a href="Anish_Kumar_CV.pdf" download class="download-btn"><i class="fas fa-download"></i> CV</a></li>
+    </ul>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+    <div class="hero-container">
+        <div class="hero-text reveal-left">
+            <div class="intro-wrapper">
+                <h3 class="intro">Hello, I'm</h3>
+            </div>
+            <h1 class="glitch-text" data-text="Anish Kumar">Anish Kumar</h1>
+            <h2><span id="typing"></span><span class="cursor">|</span></h2>
+            <p class="hero-description">
+                B.Tech CSE | Major in Cyber Security | Minor in Game Development.
+                I design secure systems, research malware behavior, and build AI-driven applications.
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn"><span>Explore Work</span> <i class="fas fa-arrow-right"></i></a>
+                <a href="mailto:anishkumar.ak0111@gmail.com" class="btn secondary-btn"><i class="fas fa-envelope"></i> Contact</a>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://github.com/Anish9345" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <div class="hero-image reveal-right">
+            <div class="image-wrapper">
+                <img src="profile.jpg" alt="Anish Kumar">
+                <div class="image-border"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="scroll-indicator">
+        <span>Scroll Down</span>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="section reveal">
+    <div class="section-header">
+        <span class="section-subtitle">Get to know me</span>
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+    </div>
+    
+    <div class="about-container">
+        <div class="about-text">
+            <p class="about-intro">I'm a passionate <span class="highlight">Cyber Security student</span> with a keen interest in malware analysis and AI security.</p>
+            <p>Currently pursuing B.Tech in Computer Science with a major in Cyber Security and minor in Game Development at Lovely Professional University. I love solving complex problems and building secure, innovative solutions.</p>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label"><i class="fas fa-user"></i> Name:</span>
+                    <span class="info-value">Anish Kumar</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label"><i class="fas fa-map-marker-alt"></i> Location:</span>
+                    <span class="info-value">India</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label"><i class="fas fa-envelope"></i> Email:</span>
+                    <span class="info-value">anishkumar.ak0111@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label"><i class="fas fa-graduation-cap"></i> Degree:</span>
+                    <span class="info-value">B.Tech CSE</span>
+                </div>
+            </div>
+            
+            <a href="Anish_Kumar_CV.pdf" download class="btn primary-btn"><i class="fas fa-download"></i> Download CV</a>
+        </div>
+        
+        <div class="about-cards">
+            <div class="exp-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Cyber Security</h3>
+                <p>Major specialization</p>
+            </div>
+            <div class="exp-card">
+                <i class="fas fa-gamepad"></i>
+                <h3>Game Dev</h3>
+                <p>Minor specialization</p>
+            </div>
+            <div class="exp-card">
+                <i class="fas fa-code"></i>
+                <h3>Programming</h3>
+                <p>Java, Python, C++</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS SECTION -->
+<section id="skills" class="section dark reveal">
+    <div class="section-header">
+        <span class="section-subtitle">My expertise</span>
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="section-line"></div>
+    </div>
+    
+    <div class="skills-container">
+        <div class="skill-category">
+            <h3>Programming Languages</h3>
+            <div class="skill-grid">
+                <div class="skill-card"><i class="fab fa-java"></i><p>Java</p><div class="skill-level" data-level="85%"></div></div>
+                <div class="skill-card"><i class="fab fa-python"></i><p>Python</p><div class="skill-level" data-level="50%"></div></div>
+                <div class="skill-card"><i class="fas fa-code"></i><p>C++</p><div class="skill-level" data-level="65%"></div></div>
+                <div class="skill-card"><i class="fab fa-html5"></i><p>HTML5</p><div class="skill-level" data-level="50%"></div></div>
+                <div class="skill-card"><i class="fab fa-css3-alt"></i><p>CSS3</p><div class="skill-level" data-level="40%"></div></div>
+                <!-- <div class="skill-card"><i class="fab fa-js"></i><p>JavaScript</p><div class="skill-level" data-level="20%"></div></div> -->
+            </div>
+        </div>
+        
+        <div class="skill-category">
+            <h3>Specializations</h3>
+            <div class="skill-grid">
+                <div class="skill-card"><i class="fas fa-shield-alt"></i><p>Cyber Security</p><div class="skill-level" data-level="80%"></div></div>
+                <div class="skill-card"><i class="fas fa-gamepad"></i><p>Game Development</p><div class="skill-level" data-level="70%"></div></div>
+                <div class="skill-card"><i class="fas fa-robot"></i><p>AI/ML</p><div class="skill-level" data-level="30%"></div></div>
+                <div class="skill-card"><i class="fas fa-cube"></i><p>Blender 3D</p><div class="skill-level" data-level="60%"></div></div>
+                <div class="skill-card"><i class="fab fa-unity"></i><p>Unity</p><div class="skill-level" data-level="45%"></div></div>
+                <div class="skill-card"><i class="fas fa-network-wired"></i><p>Networking</p><div class="skill-level" data-level="60%"></div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects" class="section reveal">
+    <div class="section-header">
+        <span class="section-subtitle">My work</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="section-line"></div>
+    </div>
+    
+    <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="security">Security</button>
+        <button class="filter-btn" data-filter="ai">AI/ML</button>
+        <button class="filter-btn" data-filter="game">Game Dev</button>
+    </div>
+    
+    <div class="card-container projects-grid">
+        <div class="card project-card tilt" data-category="security">
+            <div class="card-content">
+                <h3>Educational Keylogger</h3>
+                <p class="duration"><i class="far fa-calendar-alt"></i> July 2025 – Jan 2026</p>
+                <p>Malware behavior study in isolated VMware environment for educational purposes.</p>
+                <div class="card-tech">
+                    <span>Python</span>
+                    <span>VMware</span>
+                    <span>Security</span>
+                </div>
+                <div class="card-links">
+                    <a href="https://github.com/Anish9345/Educational-Keylogger-Project.git" target="_blank" class="card-link"><i class="fab fa-github"></i> Code</a>
+                    <!-- <a href="#" class="card-link"><i class="fas fa-external-link-alt"></i> Demo</a> -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="card project-card tilt" data-category="ai">
+            <div class="card-content">
+                <h3>Emotion-Aware AI Translator</h3>
+                <p class="duration"><i class="far fa-calendar-alt"></i> April 2025 – May 2025</p>
+                <p>Sentiment-preserving AI translation system that maintains emotional context.</p>
+                <div class="card-tech">
+                    <span>Python</span>
+                    <span>NLP</span>
+                    <span>Transformers</span>
+                </div>
+                <div class="card-links">
+                    <a href="https://emotion-aware-context-based-ai.onrender.com/" target="_blank" class="card-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="view-more">
+        <a href="#" class="btn secondary-btn">View All Projects <i class="fas fa-arrow-right"></i></a>
+    </div>
+</section>
+
+<!-- TRAINING & CERTIFICATIONS COMBINED - FIXED CHRONOLOGICAL ORDER -->
+<section id="training" class="section dark reveal">
+    <div class="section-header">
+        <span class="section-subtitle">Learning journey</span>
+        <h2 class="section-title">Training & Certifications</h2>
+        <div class="section-line"></div>
+    </div>
+    
+    <div class="training-container">
+        <!-- 1. NPTEL Privacy & Security - May 2025 -->
+        <div class="training-card">
+            <div class="training-date">
+                <span class="date-badge">May 2025</span>
+            </div>
+            <div class="training-content">
+                <h3>NPTEL Privacy & Security</h3>
+                <p>12-week certification</p>
+            </div>
+        </div>
+        
+        <!-- 2. DSA using Java - June 2025 -->
+        <div class="training-card">
+            <div class="training-date">
+                <span class="date-badge">June 2025</span>
+            </div>
+            <div class="training-content">
+                <h3>DSA using Java</h3>
+                <p>Cipher Schools</p>
+            </div>
+        </div>
+        
+        <!-- 3. Java Programming - July 2025 -->
+        <div class="training-card">
+            <div class="training-date">
+                <span class="date-badge">July 2025</span>
+            </div>
+            <div class="training-content">
+                <h3>Java Programming</h3>
+                <p>Oracle Certified</p>
+            </div>
+        </div>
+        
+        <!-- 4. Advent of Cyber 2025 - December 2025 -->
+        <div class="training-card">
+            <div class="training-date">
+                <span class="date-badge">December 2025</span>
+            </div>
+            <div class="training-content">
+                <h3>Advent of Cyber 2025</h3>
+                <p>TryHackMe</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CERTIFICATES GALLERY -->
+<section id="certifications" class="section reveal">
+    <div class="section-header">
+        <span class="section-subtitle">Credentials</span>
+        <h2 class="section-title">Certificates</h2>
+        <div class="section-line"></div>
+    </div>
+    
+    <div class="cert-gallery">
+        <div class="cert-item">
+            <div class="cert-img-wrapper">
+                <img src="cert1.jpg" alt="Advent of Cyber 2025">
+            </div>
+            <div class="cert-info">
+                <h4>Advent of Cyber 2025</h4>
+                <p>December 2025</p>
+            </div>
+        </div>
+        
+        <div class="cert-item">
+            <div class="cert-img-wrapper">
+                <img src="cert2.jpg" alt="Java Programming">
+            </div>
+            <div class="cert-info">
+                <h4>Java Programming</h4>
+                <p>July 2025</p>
+            </div>
+        </div>
+        
+        <div class="cert-item">
+            <div class="cert-img-wrapper">
+                <img src="cert3.jpg" alt="NPTEL Privacy & Security">
+            </div>
+            <div class="cert-info">
+                <h4>NPTEL Privacy & Security</h4>
+                <p>May 2025</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- EDUCATION SECTION -->
+<section id="education" class="section dark reveal">
+    <div class="section-header">
+        <span class="section-subtitle">Academic background</span>
+        <h2 class="section-title">Education</h2>
+        <div class="section-line"></div>
+    </div>
+    
+    <div class="edu-timeline">
+        <div class="edu-card">
+            <div class="edu-icon">
+                <i class="fas fa-university"></i>
+            </div>
+            <div class="edu-content">
+                <h3>B.Tech – Computer Science</h3>
+                <p class="edu-meta">Lovely Professional University | 2023 – Present</p>
+                <div class="edu-details">
+                    <span class="badge">Major: Cyber Security</span>
+                    <span class="badge">Minor: Game Development</span>
+                    <span class="badge">CGPA: 6.24</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="edu-card">
+            <div class="edu-icon">
+                <i class="fas fa-school"></i>
+            </div>
+            <div class="edu-content">
+                <h3>Intermediate (12th)</h3>
+                <p class="edu-meta">Cambridge School | 2021 - 2023</p>
+                <div class="edu-details">
+                    <span class="badge">Percentage: 63.8%</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="edu-card">
+            <div class="edu-icon">
+                <i class="fas fa-school"></i>
+            </div>
+            <div class="edu-content">
+                <h3>Matriculation (10th)</h3>
+                <p class="edu-meta">Army Public School | 2021</p>
+                <div class="edu-details">
+                    <span class="badge">Percentage: 60.5%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ACTIVITIES SECTION -->
+<section id="activities" class="section reveal">
+    <div class="section-header">
+        <span class="section-subtitle">Beyond academics</span>
+        <h2 class="section-title">Extra & Co-Curricular</h2>
+        <div class="section-line"></div>
+    </div>
+    
+    <div class="activities-grid">
+        <div class="activity-card">
+            <div class="activity-icon">
+                <i class="fas fa-campground"></i>
+            </div>
+            <h3>NSS 7 Days Camp</h3>
+            <p class="activity-date">November 2025</p>
+            <p>Community service and social awareness camp</p>
+        </div>
+        
+        <div class="activity-card">
+            <div class="activity-icon">
+                <i class="fas fa-running"></i>
+            </div>
+            <h3>Marathon Against Drugs</h3>
+            <p class="activity-date">January 2025</p>
+            <p>Participated in awareness marathon</p>
+        </div>
+        
+        <!-- <div class="activity-card">
+            <div class="activity-icon">
+                <i class="fas fa-flag"></i>
+            </div>
+            <h3>CTF Competitions</h3>
+            <p class="activity-date">Ongoing</p>
+            <p>Regular participant in CTF challenges</p>
+        </div> -->
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="section dark contact-section">
+    <div class="contact-container">
+        <h2>Let's Work Together</h2>
+        <p>Interested in collaborating or have a project in mind? Let's connect!</p>
+        <div class="contact-buttons">
+            <a href="mailto:anishkumar.ak0111@gmail.com" class="btn primary-btn"><i class="fas fa-paper-plane"></i> Send Message</a>
+            <a href="#" class="btn secondary-btn"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-logo">Anish Kumar</div>
+        <p class="footer-tagline">Securing the digital future, one line of code at a time.</p>
+        <div class="footer-social">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p class="copyright">© 2026 Anish Kumar.</p>
+    </div>
+    
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
